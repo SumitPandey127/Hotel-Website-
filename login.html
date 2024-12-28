@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>More</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background-color: #000000;
+        color: #f2f2f2;
+      }
+
+      /* Style the header */
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Create three unequal columns that floats next to each other */
+      .column {
+        float: right;
+        padding: 10px;
+      }
+
+      /* Left and right column */
+      .column.side {
+        width: 25%;
+        height: 45%;
+      }
+
+      /* Middle column */
+      .column.middle {
+        width: 50%;
+        height: 45%;
+      }
+
+      /* Clear floats after the columns */
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+        height: 45%;
+      }
+
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column.side,
+        .column.middle {
+          width: 100%;
+          height: 45%;
+        }
+      }
+
+      /* Style the footer */
+      .footer {
+        background-color: #6f6b6b55;
+        padding: 10px;
+        text-align: center;
+        height: 123px;
+      }
+      /zig zak/
+      * {
+        box-sizing: border-box;
+      }
+
+      .container {
+        padding: 64px;
+        background-color: #000000;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .column-66 {
+        float: left;
+        width: 66.66666%;
+        padding: 20px;
+      }
+
+      .column-33 {
+        float: left;
+        width: 33.33333%;
+        padding: 20px;
+        background-color: #000000;
+      }
+
+      .large-font {
+        font-size: 48px;
+      }
+
+      .xlarge-font {
+        font-size: 64px;
+      }
+
+      .button {
+        border: none;
+        color: white;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #04aa6d;
+      }
+
+      img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+      }
+
+      @media screen and (max-width: 1000px) {
+        .column-66,
+        .column-33 {
+          width: 100%;
+          text-align: center;
+        }
+        img {
+          margin: auto;
+        }
+      }
+      .gap {
+        background-color: #333;
+        width: 100%;
+        height: 09px;
+      }
+      .mySlides {
+        display: none;
+      }
+      .containe {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+
+      .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+      }
+
+      .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+      }
+
+      .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+      }
+
+      .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+      }
+
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="containe">
+        <img src="food4.avif" alt="Snow" style="width: 100%" height="891px" />
+        <!--<div class="bottom-left">Bottom Left</div>-->
+        <div class="top-left">
+          <img src="Arestol Vavan.jpg" style="height: 125px" />
+        </div>
+        <!--<div class="top-right">Search Bar</div>-->
+        <!--<div class="bottom-right">Bottom Right</div>-->
+        <div class="centered"><h1>About the Food</h1></div>
+      </div>
+    </div>
+
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="more.html">More</a>
+      <a href="login.html">Login</a>
+    </div>
+
+    <div class="row">
+      <div class="column side" style="height: 45%">
+        <img src="food1.jpeg" alt="watch" />
+      </div>
+
+      <div class="column middle">
+        <h2>About Health & Hygine</h2>
+        <p>
+          Good health and hygiene are the cornerstones of a vibrant life. They empower us to thrive, allowing our bodies and minds to flourish in harmony with our environment."
+        </p>
+        <p>
+          Health and hygiene go hand in hand, like two partners in a timeless dance. They form the foundation of our well-being, ensuring that we can live our lives to the fullest with vitality and confidence.Health and hygiene are not just habits; they are investments in our future selves. By prioritizing them, we pave the way for a life filled with vitality, resilience, and abundance.
+        </p>
+      </div>
+
+      <div class="column side">
+        <img src="food2.avif" />
+      </div>
+    </div>
+    <div class="gap"></div>
+    <!-- zig zak-->
+    <div style="text-align: center">
+      <h3>Savor the moments, indulge in flavors, <br>and let every bite be a celebration of life."
+        </h3>
+      
+    </div>
+
+    <!-- The App Section -->
+    <div class="container">
+      <div class="row">
+        <div class="column-66" style="background-color: #000000; color: #ddd">
+          <h1 class="xlarge-font"><b>The Delicious</b></h1>
+          <h1 class="large-font" style="color: rgb(54, 56, 55)">
+            <b>Want some Sweets?</b>
+          </h1>
+          <p>
+            <span style="font-size: 36px">Enjoy! </span><br>
+           1. Decadent Chocolate Lava Cake: A rich chocolate cake with a gooey, molten center, served with a scoop of vanilla ice cream.<br>
+           2. Classic New York Cheesecake: Creamy cheesecake on a graham cracker crust, topped with fresh berries or a fruit compote.<br>
+           3. Tiramisu: Layers of coffee-soaked ladyfingers and mascarpone cheese, dusted with cocoa powder.<br>
+           4. Crème Brûlée: Creamy vanilla custard with a caramelized sugar crust, served with fresh berries.<br>
+           5. Fruit Tart: A buttery tart shell filled with pastry cream and topped with assorted fresh fruits.<br>
+           6. Chocolate Dipped Strawberries: Juicy strawberries dipped in rich, melted chocolate, served with whipped cream.
+          </p>
+          <button class="button">Order Now</button>
+        </div>
+        <div class="column-33">
+          <img src="pictu3.jpeg" width="335" height="471" />
+        </div>
+      </div>
+    </div>
+    <div class="gap"></div>
+    <!-- Clarity Section -->
+    <div class="container" style="background-color: #000000; color: #ddd">
+      <div class="row">
+        <div class="column-33">
+          <img src="pizza-3007395_1280.jpg" alt="App" width="335" height="471" />
+        </div>
+        <div class="column-66">
+          <h1 class="xlarge-font"><b>Eat What Ur Heart Says!</b></h1>
+          <h1 class="large-font" style="color: red"><b>Snacks And Beverage</b></h1>
+          <p>
+            <span style="font-size: 24px">Here We Go!</span><br>
+            Snacks:<br>
+            1.Nachos: Crispy tortilla chips topped with melted cheese, jalapenos, salsa, and sour cream.<br>
+            2.Bruschetta: Toasted bread topped with diced tomatoes, garlic, basil, and olive oil.<br>
+            3.Hummus Platter: Creamy hummus served with warm pita bread, olives, and cucumber slices.<br>
+            4.Stuffed Mushrooms: Mushrooms filled with a savory mixture of breadcrumbs, cheese, and herbs, baked until golden.<br>
+          </p><p>
+            Beverage:<br>
+            1.Iced Tea: Classic black or green tea served over ice, optionally flavored with lemon or peach.<br>
+            2.Mocktails: Non-alcoholic cocktails like virgin mojitos, Shirley Temples, or fruit punches.<br>
+            3.Hot Chocolate: Rich, creamy hot chocolate topped with whipped cream and chocolate shavings.<br>
+            4.Milkshakes: Classic milkshakes in flavors like chocolate, vanilla, strawberry, or salted caramel.
+          </p>
+          <button class="button" style="background-color: red">
+            Order Now
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="gap"></div>
+    <!-- The App Section -->
+    <div class="container" style="background-color: #000000; color: #ddd">
+      <div class="row">
+        <div class="column-66">
+          <h1 class="xlarge-font"><b>Spicy Cuisine </b></h1>
+          <h1 class="large-font" style="color: rgb(72, 126, 96)">
+            <b>The Style of India</b>
+          </h1>
+          <p>
+            <span style="font-size: 36px">Are you Hungry!</span> <br>
+            Curries:<br>
+            1.Paneer Tikka Masala: Cubes of paneer cheese marinated in yogurt and spices, cooked in a creamy tomato-based gravy.<br>
+            2.Dal Makhani: Creamy lentils cooked with butter, cream, and aromatic spices, served with naan or rice<br>
+            3.Malai Kofta: Deep-fried vegetable and paneer dumplings served in a creamy, mildly spiced gravy<br>
+            4.Dal Tadka: Yellow lentils tempered with ghee, cumin, garlic, and red chilies, garnished with fresh coriander.<br>
+          </p><p>
+            Accompaniments:<br>
+            1.Naan: Oven-baked flatbread made with refined flour and served hot.<br>
+            2.Roti: Whole wheat flatbread cooked on a griddle and served fresh.<br>
+            3.Rice: Fragrant basmati rice, plain or flavored with spices like cumin or saffron.<br>
+            4.Raita: Yogurt-based side dish with grated cucumber, carrots, and spices, served chilled.<br>
+            5.Vegetable Biryani: Fragrant basmati rice cooked with mixed vegetables, herbs, and spices, served with raita.
+          </p>
+          <button class="button">Order Now</button>
+        </div>
+        <div class="column-33">
+          <img src="food1.jpeg" width="335" height="471" />
+        </div>
+      </div>
+    </div>
+    <div class="gap"></div>
+    <div class="footer">
+      <p>"Your satisfaction is our sweetest reward - thank you for choosing us to indulge your palate!"<br>
+        Contact US:- 78005323244
+      </p>
+    </div>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+  </body>
+</html>
